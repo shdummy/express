@@ -8,3 +8,6 @@ matrix:
   fast_finish: true
   
 script: "npm run-script test-travis"
+
+after_success:
+  - echo "Hooray!"
