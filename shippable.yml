@@ -10,4 +10,6 @@ matrix:
 script: "npm run-script test-travis"
 
 after_success:
-  - echo "Hooray!"
+  - echo "I made a change!"
+  
+commit_container: tmlbl/xprss
